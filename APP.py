@@ -12,7 +12,7 @@ def index():
 
 def translate():
     try:
-        subprocess.run(['python','C:\\Users\\USER\\Desktop\\VM Evaluate\\src\\Test_mouse.py'])
+        subprocess.run(['python','/Test_mouse.py'])
         return render_template('index.html')
 
     except Exception as e:
